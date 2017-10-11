@@ -1,0 +1,43 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#product_list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 65%;
+  background-color: #EEEEEE;
+}
+
+#company_name {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 60px;
+}
+
+#product_item {
+  width: 20%;
+  height: 50%;
+  margin: 2.5%;
+  background-color: #bbbbbb;
+  float: left;
+}
+
+#product_dropdown {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+#product_search {
+  position: absolute;
+  top: 23%;
+  left: 21%;
+  border: 1px solid;
+  width: 30%;
+  text-align: right;
+}

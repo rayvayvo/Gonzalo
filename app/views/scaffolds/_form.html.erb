@@ -1,0 +1,42 @@
+<%= form_for(scaffold) do |f| %>
+  <% if scaffold.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(scaffold.errors.count, "error") %> prohibited this scaffold from being saved:</h2>
+
+      <ul>
+      <% scaffold.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :review %>
+    <%= f.text_field :review %>
+  </div>
+
+  <div class="field">
+    <%= f.label :product_id %>
+    <%= f.text_field :product_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :user_id %>
+    <%= f.text_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :rating %>
+    <%= f.text_field :rating %>
+  </div>
+
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_field :description %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

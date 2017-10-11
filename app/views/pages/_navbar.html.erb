@@ -1,0 +1,21 @@
+    <section id="navbar">
+      <div id="nav_logo">
+        LOGO.JPG
+      </div>
+
+      <div id="nav_name">
+        <%= link_to "Company NAME", 'products#index' %>
+      </div>
+
+      <div class="dropdown" id="nav_dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Settings
+        </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="users#show">account</a>
+            <a class="dropdown-item" href="#">Your Products</a>
+            <a class="dropdown-item" href="pages#index">Logout</a>
+          </div>
+        </div>
+    </section>

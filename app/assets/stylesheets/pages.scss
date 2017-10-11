@@ -1,0 +1,87 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#login_bar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 0;
+  background-color: black;
+  text-align: right;
+}
+
+#login_bar a {
+  color: white;
+}
+
+#index_right {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  top: 3%;
+  bottom: 0;
+  background-color: black;
+}
+
+#index_left {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  top: 3%;
+  bottom: 0;
+  background-color: white;
+}
+
+#register_form {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+  height: 40%;
+  width: 50%;
+}
+
+#index_logo {
+  font-size: 45px;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5%;
+  background-color: coral;
+  z-index: 5;
+}
+
+#nav_logo {
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+#nav_name {
+  position: absolute;
+  left: 15%;
+  top: 0;
+}
+
+#nav_dropdown {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  height: 2.5vw;
+}
+
+#nav_dropdown button {
+  padding: 3%;
+  background-color: coral;
+  border: none;
+}

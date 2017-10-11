@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Review:</strong>
+  <%= @scaffold.review %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @scaffold.product_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @scaffold.user_id %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @scaffold.rating %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @scaffold.description %>
+</p>
+
+<%= link_to 'Edit', edit_scaffold_path(@scaffold) %> |
+<%= link_to 'Back', scaffolds_path %>
